@@ -1,0 +1,179 @@
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --secondery-title-text-color: #ffffff;
+  --accent-color: #2196f3;
+}
+body {
+  background-color: #fff;
+  color: var(--primery-text-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.17;
+}
+.list {
+  list-style: none;
+}
+a.link {
+  text-decoration: none;
+}
+/* site-nav */
+.logo {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+.accent-logo {
+  color: var(--accent-color);
+}
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.contacts .link {
+  color: var(--primery-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts .link:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+/* main menu*/
+/* for h2 */
+.section-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17px;
+  text-align: center;
+}
+/* for h3 */
+.title {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+/* hero */
+.hero {
+  background: rgba(47, 48, 58, 0.8);
+}
+.hero .section-title {
+  color: var(--secondery-title-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* button */
+.button {
+  color: var(--secondery-title-text-color);
+  background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+ }
+/* advantage */
+/* .advantage .title {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.advantage .text {
+  font-size: 14px;
+  line-height: 1.17;
+} */
+
+/* service */
+.services .title {
+  color: var(--secondery-title-text-color);
+  background: rgba(47, 48, 58, 0.8);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+}
+
+/* seclion our team */
+.team {
+  background: #f5f4fa;
+}
+.title-lower {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.content .text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* footer */
+footer {
+  color: var(--secondery-title-text-color);
+  background: #2f303a;
+}
+address {
+  font-style: normal;
+}
+footer .link {
+  color: var(--secondery-title-text-color);
+}
+footer .title {
+  color: var(--secondery-title-text-color);
+}
+.address.link {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* portfolio */
+.button.filter {
+  color: var(--section-title-text-color);
+  background-color: #f5f4fa;
+}
+.card .link {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.text-title {
+  color: var(--primery-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+.text-accent {
+  background: rgba(33, 150, 243, 0.9);
+  color: var(--secondery-title-text-color);
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+}
