@@ -358,6 +358,19 @@ footer .title {
 .button.filter {
   color: var(--section-title-text-color);
   background-color: #f5f4fa;
+  padding-bottom: 0px;
+}
+.filter {
+  display: flex;
+  padding-top: 0px;
+  justify-content: center;
+}
+
+.filter .item + .item {
+  margin-left: 8px;
+}
+.filter.list {
+  margin-bottom: 34px;
 }
 
 .card .link {
@@ -371,7 +384,7 @@ footer .title {
   color: var(--primery-text-color);
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.06em;
 }
 .text-accent {
   background: rgba(33, 150, 243, 0.9);
@@ -379,4 +392,29 @@ footer .title {
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
+}
+.is-hidden {
+  display: none;
+}
+.name-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card .card-list {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.card .card-list:nth-child(3n) {
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
