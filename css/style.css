@@ -16,7 +16,6 @@ html {
 .container {
   margin-right: auto;
   margin-left: auto;
-  outline: 2px solid black;
   width: 1200px;
   padding: 94px 15px;
 }
@@ -155,7 +154,6 @@ a.link {
 /* hero */
 .hero {
   background: rgba(47, 48, 58, 0.8);
-  outline: 2px solid black;
   text-align: center;
 }
 
@@ -308,7 +306,6 @@ footer {
   display: flex;
   margin-right: auto;
   margin-left: auto;
-  outline: 2px solid white;
   width: 1200px;
   padding: 60px 15px;
 }
