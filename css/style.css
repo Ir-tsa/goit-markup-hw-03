@@ -33,7 +33,7 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.71;
 }
 
 .list {
@@ -89,8 +89,6 @@ a.link {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  /* outline: 2px solid red;
-  background-color: skyblue; */
 }
 
 .site-nav .link:hover,
@@ -106,13 +104,8 @@ a.link {
 .contacts {
   display: flex;
   margin-left: auto;
-  /* outline: 2px solid red;
-  background-color: turquoise; */
 }
-/* .contacts .item {
-  outline: 2px solid red;
-  background-color: salmon;
-} */
+
 .contacts .item + .item {
   margin-left: 30px;
 }
@@ -147,7 +140,7 @@ a.link {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  margin-top: 0px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -155,6 +148,8 @@ a.link {
 .hero {
   background: rgba(47, 48, 58, 0.8);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero .section-title {
@@ -233,6 +228,9 @@ p {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
 }
+.item .title {
+  margin-top: 0px;
+}
 
 .services .item:nth-child(3n) {
   margin-right: 0px;
@@ -277,6 +275,10 @@ img {
   color: var(--title-text-color);
   margin-top: 30p;
   margin-bottom: 10px;
+}
+/* .content {
+  outline: 2px solid blueviolet;
+  background-color: cornflowerblue; */
 }
 .content .text {
   font-size: 16px;
@@ -343,6 +345,7 @@ footer .title {
   margin: 0px;
   display: flex;
   padding-left: 0px;
+  justify-content: center;
 }
 .container-fotter .logo {
   padding: 0px;
@@ -353,9 +356,9 @@ footer .title {
 }
 /* portfolio */
 .button.filter {
-  color: var(--section-title-text-color);
+  color: var(--title-text-color);
   background-color: #f5f4fa;
-  padding-bottom: 0px;
+  padding: 6px 22px;
 }
 .filter {
   display: flex;
