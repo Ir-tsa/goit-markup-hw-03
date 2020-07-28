@@ -17,7 +17,11 @@ html {
   margin-right: auto;
   margin-left: auto;
   width: 1200px;
-  padding: 94px 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  /* outline: 2px solid blue;
+  background-color: lightgreen; */
 }
 
 .container.header {
@@ -44,6 +48,14 @@ body {
 
 a.link {
   text-decoration: none;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  /* outline: 2px solid brown; */
+}
+.section.services {
+  padding-top: 0px;
 }
 
 /* header */
@@ -130,8 +142,9 @@ a.link {
   font-size: 36px;
   line-height: 1.17px;
   text-align: center;
-  margin-top: 0px;
   margin-bottom: 50px;
+  /* background-color: lightpink;
+  outline: 2px solid red; */
 }
 
 /* for h3 */
@@ -246,10 +259,12 @@ img {
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
 }
 
 /* seclion our team */
-.team .container {
+.section.team {
   background: #f5f4fa;
 }
 
@@ -273,11 +288,11 @@ img {
   line-height: 1.19;
   text-align: center;
   color: var(--title-text-color);
-  margin-top: 30p;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
-/* .content {
-  outline: 2px solid blueviolet;
+.content {
+  /* outline: 2px solid blueviolet;
   background-color: cornflowerblue; */
 }
 .content .text {
@@ -316,6 +331,7 @@ footer {
   margin-right: 30px;
   display: inline-block;
   margin-bottom: 9px;
+  /* background-color: silver; */
 }
 
 address {
@@ -340,21 +356,35 @@ footer .title {
 .link-container {
   width: 270px;
   margin-right: 30px;
+  /* background-color: silver; */
+}
+.link-container .title {
+  margin-top: 0px;
 }
 .link-list {
   margin: 0px;
   display: flex;
   padding-left: 0px;
   justify-content: center;
+  padding-bottom: 24px;
 }
 .container-fotter .logo {
   padding: 0px;
   margin-bottom: 20px;
 }
 .subscription {
-  width: 540px;
+  /* background-color: silver; */
+  /* width: 540px; */
+}
+.subscription .title {
+  margin-top: 0px;
 }
 /* portfolio */
+
+.portfolio {
+  padding-top: 93px;
+  padding-bottom: 94px;
+}
 .button.filter {
   color: var(--title-text-color);
   background-color: #f5f4fa;
