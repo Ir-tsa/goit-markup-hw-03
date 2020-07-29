@@ -19,7 +19,6 @@ html {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-
   /* outline: 2px solid blue;
   background-color: lightgreen; */
 }
@@ -140,8 +139,9 @@ a.link {
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.17px;
+  line-height: 1.17;
   text-align: center;
+  margin-top: 0px;
   margin-bottom: 50px;
   /* background-color: lightpink;
   outline: 2px solid red; */
@@ -268,17 +268,17 @@ img {
   background: #f5f4fa;
 }
 
-.container-team {
+.personnel.list {
   display: flex;
   flex-wrap: wrap;
 }
-
-.container-team .content {
+.personnel.list .item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
+  /* background-color: steelblue; */
 }
 
-.container-team .content:nth-child(4n) {
+.personnel.list .item:nth-child(4n) {
   margin-right: 0px;
 }
 
@@ -291,11 +291,8 @@ img {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-.content {
-  /* outline: 2px solid blueviolet;
-  background-color: cornflowerblue; */
-}
-.content .text {
+
+.personnel.list .text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -321,6 +318,7 @@ footer {
 }
 .container-fotter {
   display: flex;
+  justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
   width: 1200px;
@@ -372,13 +370,17 @@ footer .title {
   padding: 0px;
   margin-bottom: 20px;
 }
-.subscription {
-  /* background-color: silver; */
-  /* width: 540px; */
-}
+/* .subscription {
+  background-color: silver;
+  width: 540px;
+} */
 .subscription .title {
   margin-top: 0px;
 }
+.subscription .item {
+  display: flex;
+}
+
 /* portfolio */
 
 .portfolio {
@@ -447,4 +449,4 @@ footer .title {
 .card .card-list:nth-child(3n) {
   margin-right: 0px;
   margin-bottom: 0px;
-}
+
